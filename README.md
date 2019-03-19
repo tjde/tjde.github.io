@@ -6,7 +6,17 @@ I. Website Description:
 
 i. Purpose
 
+To create a portfolio that demonstrates my knowledge of html and css, that shows information about myself and serves to showcase my skills to future employers.
+
 ii. Functionality/ features
+
+The portfolio has a sidebar with various clickable menu headings for the following items:
+
+A. Home - Brings user to home page.
+B. Works - A demonstration of current and future projects that can be scrolled through via a clickable arrow.
+C. About - Details current and previous professions, projects and interests
+
+The bottom of the sidebar also contains direct links to various social meda sites, including email, github and linkedin, 
 
 iii. Sitemap
 
@@ -14,13 +24,15 @@ iv. Screenshots
 
 v. Target Audience
 
-vi, Tech Stack
+vi. Tech Stack
 
 
 II. Design Documentation:
 
 i. Design Process
+
 ii. Wireframes
+
 iii. Usability Considerations
 
 III. Planning Process:

@@ -13,19 +13,24 @@ ii. Functionality/ features
 The portfolio has a sidebar with various clickable menu headings for the following items:
 
 A. Home - Brings user to home page.
-B. Works - A demonstration of current and future projects that can be scrolled through via a clickable arrow.
-C. About - Details current and previous professions, projects and interests
+B. Projects - A demonstration of current and future projects that can be scrolled through via a clickable arrow.
+C. My Story - Details current and previous professions, projects and interests
 
-The bottom of the sidebar also contains direct links to various social meda sites, including email, github and linkedin, 
+The bottom of the sidebar also contains direct links to contact me through various social meda sites, including email, github and linkedin.
 
 iii. Sitemap
 
 iv. Screenshots
 
+
+
 v. Target Audience
+
+The target audience includes potential employers, recruiters, other programmers, anybody who may be interested in tech or learning to program.
 
 vi. Tech Stack
 
+The tech stack utilised in this project includes: Trello, Balsamiq, Github, HTML and CSS
 
 II. Design Documentation:
 
@@ -35,10 +40,16 @@ ii. Wireframes
 
 iii. Usability Considerations
 
+
 III. Planning Process:
 
 IV. Development of the internet
 
+ Describe key events in the development of the internet from the 1980s to today (max. 150 words)
+
+
+    Define and describes the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers (max. 150 words)
+    Reflect on one aspect of the development of internet technologies and how it has contributed to the world today (max. 150 words)
 
 
 

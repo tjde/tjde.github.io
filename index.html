@@ -5,8 +5,8 @@
     <title>Jade Rosario</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="normalize.css" rel="stylesheet" />
-    <link href="style.css" rel="stylesheet" />    <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,600|Open+Sans:400,700" rel="stylesheet" />-->
-    <link href="https://fonts.googleapis.com/css?family=Cabin:400,500,700|Source+Sans+Pro:300" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" />   
+    <link href="https://fonts.googleapis.com/css?family=Cabin:400,500,700|Source+Sans+Pro:300,400" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
 
@@ -24,9 +24,11 @@
 
 
     <div id="hometext">
-        <h1> G'day, I'm <span><b>Jade.</b></span></h1>
+        <h1> G'day, my name is <span><b>Jade.</b></span></h1>
         <h2> A full-stack developer in the making</h2>
-        <h2>I aim to build programs that enrich people's lives</h2>
+        <br>
+        <br>
+        <p>I aim to build programs that enrich people's lives.</p>
 
     </div>
 
@@ -41,53 +43,86 @@
               }
               prevScrollpos = currentScrollPos;
             }
+
     </script>
 
     <div id="projects"><a name="projects"></a>
 
         <h2>Projects</h2>
 
-        <p><b>Fun-Pass-Gen Password Generator</b></p>
+        <div class="container">
 
-        <img src="/home/rubyrose/Portfolio/src/18_appscreenshot1.png" alt="Screenshot of Fun Password Generator" target="_blank">
+        
+            <div class ="passgen">
 
-        <p>This is a terminal app I co-programmed in Ruby, where a unique and secure password is generated based on the
-            user's answers to a set of questions. A memorable phrase to assist in recall is provided, along with an
-            option to encrypt.</p>
+            <p><b>Fun-Pass-Gen Password Generator</b></p>
+            <br>
+            <div class="passpic">
+            <img src="./src/funpassgen.png" alt="Screenshot of Fun Password Generator">
+            </div>
+            <br>
+            
+            <p>This is terminal app programmed in Ruby, where a unique and secure password is generated based on the
+            user's answers to a set of questions.</p>
+            <br>
+            <p>Click <a href="https://github.com/tjde/fun-pass-gen" target="_blank">here</a> to learn more.</p>
 
-        Click <a href="https://github.com/alxdwa/fun-pass-gen">here</a> to learn more.
+            </div>
+
+            <div class ="zencss">
+
+            <p><b>Zen Garden CSS</b></p> 
+            <br>
+            <img src="./src/csszen.png" alt="Screenshot Zen CSS Page">
+
+            <br>
+            <br>
+            <p>A submission to a design challenge to style a given html page using css.</p>
+            <p>This is currently a WIP</p>
+            </div>
+
+        </div>
+
 
     </div>
 
     <div id="about"> <a name="about"></a>
+        
+        <h2>About Me</h2> 
 
-        <h2>My Story</h2>
-
-        <h4>Current:</h4>
-
-        <p>I’m a full-time student studying at Coder Academy where I’m developing the knowledge and skills to utilise
-            best practices in programming.
-        </p>
-        <p>In between classes, I strive to maintain a yoga and calisthenics practice to
-            keep myself healthy in mind and body.
-            I am also very interested in emerging technologies like VR & AR.
-        </p>
-
-        <p>Currently working on: <span style="text-decoration:underline">Ruby, HTML & CSS. </span></p>
-
-        <h4>Previous:</h4>
-        <p>I was working as a cpa qualified management accountant in the education and private sectors, managing budgets
-            and analysing financial trends. 
-        </p>
-        <p>In between, I travelled extensively for the joy of experiencing new places
-            including a memorable stint as a volunteer construction worker in Cuzco, Peru.</p>
-
+        <div class="container2">
+       
+            <div class="column">
+                <h3>Current</h3>
+                <br>
+                <p>I'm a full-time student studying at Coder Academy where I’m developing the knowledge and skills to utilise
+                        best practices in programming.
+                    </p>
+                    <p>In between classes, I strive to maintain a yoga and calisthenics practice to
+                        keep myself healthy in mind and body.
+                        I am also very interested in emerging technologies like VR & AR.
+                    </p>
+                    <br>
+                    <p>Currently working on: <span style="text-decoration:underline">Ruby, HTML & CSS. </span></p>
+                    <br>
+              </div>
+              
+            <div class="column">
+                <h3>Previous</h3>
+                <br>
+                <p>I was working as a cpa qualified management accountant in the education and private sectors, managing budgets
+                        and analysing financial trends before deciding to study programming. 
+                </p>
+                <p>In between, I travelled extensively for the joy of experiencing new places
+                    including a memorable stint as a volunteer construction worker in Cuzco, Peru.</p>
+            
+              </div>
+            </div>
+       
     </div>
 
-
-
-    <footer>
-        <div id="contact">
+<!-- 
+    <div id="contact">
             <span>Contact me via</span>
             <a class="smedia" href="mailto: tjde@protonmail.com" class="content-link" target="_blank"> <i
                     class="fas fa-envelope-square"></i>
@@ -97,8 +132,21 @@
             <a class="smedia" href="https://github.com/tjde" class="content-link" target="_blank"><i
                     class="fab fa-github"></i>
         </div>
-        <br>
-        &copy Jade Rosario 2019
+        <br> -->
+
+
+    <footer>
+
+      <div id="contact">
+            <a class="smedia" href="mailto: tjde@protonmail.com" target="_blank"> 
+                <i class="fas fa-envelope-square"></i></a>
+            <a class="smedia" href="http://www.linkedin.com/in/jaderosario" target="_blank">
+                <i class="fab fa-linkedin"></i></a>
+            <a class="smedia" href="https://github.com/tjde" target="_blank">
+                <i class="fab fa-github"></i>
+    </div>
+       
+       
 
 
 

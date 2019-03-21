@@ -1,93 +1,234 @@
+*{
+  margin:0;
+  padding;0;
+}
+/* this resets the default margin and padding to 0  */
+
+
+
 body { 
   height: 100%;
   font-family: 'Source Sans Pro', Helvetica, sans-serif;
-  margin: 20px 20px;
-  /* font-family: 'Montserrat', Helvetica, sans-serif; */
+  font-size: 18px;
+  color: #5F6B72;
+  
+}
+
+img {
+  /* text-align: justify; */
+  max-width: 100%;
+  height: auto;
 }
 
 #navbar {
-  background-color: #333;
+  background-color:#f2f2f2;
   position: fixed;
+  overflow: hidden;
   top: 0;
   width: 100%;
   display: block;
   transition: top 0.3s;
+ 
 }
 
 #navbar a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color:  #333;
   text-align: center;
-  padding: 15px;
+  padding: 17px;
   text-decoration: none;
-  font-size: 13px;
+  font-size: 15px;
+  font-weight: bold;
+  
 }
 
 #navbar a:hover {
-  background-color: #ddd;
+  background-color: rgb(198, 226, 198);
   color: black;
 }
 
 
 #hometext {
   /* margin: 20px 20px; */
-  padding: 20px;
-  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  /* background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%); */
+  background-image:url('./src/greenplants.jpg');
   font-family: 'Cabin', Arial, sans-serif;
+  color: rgb(71, 69, 69);
   text-align: center;
-  border-width: 0;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  /* vh 100 makes it full page */
   
 }
 
-/* #about {
-  margin-top: 30px;
-} */
-
+#hometext p {
+  font-size: 20px;
+}
   h1 {
-    font-size: 40px;
- 
+    font-size: 60px;
+    line-height: 1.2;
   }
 
- #about {
-text-align: center;
-
- } 
 
   span {
-     color: #ff0000;
+     color: rgb(41, 116, 11);
      /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
-     font-weight: bolder;
+     /* font-weight: bolder; */
   }
 
+  #projects {
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+    text-align: center;
+    height: 100vh;
+    
+  }
+
+  #projects h2 {
+    background-color: rgb(114, 150, 114);
+    color: white;
+    padding: 8px;
+    margin-bottom: 15px; 
+
+  }
+
+  .container {
+    display: flex;
+    padding: 20px;
+   
+    /* max-width: 50%; */
+    /* padding 0 15px; */
+    
+    /* margin: 20px 20px; */
+  }
+    
+    
+  /* /* img.container { 
+    width: 70px;
+    height: 70px;
+    margin: 20px 20px; */
+  /* } */
+
+  .passgen {
+    flex: 50%;
+    /* padding: 15px; */
+    /* text-align: center;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap; */
+
+  }
+
+  /* .passpic {
+    width: 50px;
+    height: 50px
+  } */
+
+  .zencss { 
+ /* flex-direction: column;
+ align-items: flex-end;
+ flex-wrap: wrap; */
+  flex: 50%;
+ /* padding: 15px; */
+  }
+  */
+  /* .passgen { */
+    /* margin: 0 20px 0 20px; */
+
+  /* }
+
+  p.passgen {
+    text-align: left;
+  } */
+ 
+
+  #about {
+    height: 100vh;
+    
+  } 
+
+  #about h2 {
+    background-color: rgb(114, 150, 114);
+    color: white;
+    padding: 8px;
+    margin-bottom: 15px; 
+    text-align: center;
+  }
+
+  .container2 {
+    padding: 20px;
+    text-align: center; 
+  }
+
+
+
+    
   h4 {
     text-align: center;
     text-decoration: underline;
   }
 
 .smedia {
-  line-height: 1;
-
+  font-size: 40px;
+  color: rgb(116, 114, 114);
+  padding: 7px;
+  
 }
 
-#projects {
-  overflow: hidden;
-  text-align: center
+#contact {
+    display: flex;
+      justify-content: center;
+      align-items: center;
 }
 
-img {
-  text-align: justify;
-  width: auto;
-  height: 80px
-}
+#contact span {
+  font-weight: 600;
+  font-size: 20px;
+  font-family: 'Cabin', Arial, sans-serif;
 
-.content-link {
+}
+/* .content-link {
   height: 30px;
   align-content: center;
+} */
+
+
+/* #contact { */
+  /* margin: 20px 20px; */
+  /* background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%); */
+  /* background-image:url('./src/flowers.jpg');
+  font-family: 'Cabin', Arial, sans-serif;
+  color: rgb(46, 45, 45);
+  text-align: right;
+  height: 100vh;
+  background-size: cover;
+  background-position: center; */
+  /* background-size: ;
+  background-position: left; */
+  /* display: flex;
+  flex-direction:column;
+  justify-content: flex-start; */
+  
+  /* padding: 0 20px; */
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+  .container {
+    flex: 50%;
+    max-width: 50%;
+  }
 }
 
-
-
-
-
-
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .container {
+    flex: 100%;
+    max-width: 100%;
+  }
+}

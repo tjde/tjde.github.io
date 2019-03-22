@@ -26,25 +26,10 @@
     <div id="hometext">
         <h1> G'day, my name is <span><b>Jade.</b></span></h1>
         <h2> A full-stack developer in the making</h2>
-        <br>
-        <br>
         <p>I aim to build programs that enrich people's lives.</p>
 
     </div>
 
-    <script>
-            var prevScrollpos = window.pageYOffset;
-            window.onscroll = function() {
-            var currentScrollPos = window.pageYOffset;
-              if (prevScrollpos > currentScrollPos) {
-                document.getElementById("navbar").style.top = "0";
-              } else {
-                document.getElementById("navbar").style.top = "-50px";
-              }
-              prevScrollpos = currentScrollPos;
-            }
-
-    </script>
 
     <div id="projects"><a name="projects"></a>
 
@@ -52,33 +37,28 @@
 
         <div class="container">
 
-        
+            
             <div class ="passgen">
 
-            <p><b>Fun-Pass-Gen Password Generator</b></p>
-            <br>
+            <p><span class="bold">Fun-Pass-Gen Password Generator</p></span>
             <div class="passpic">
-            <img src="./src/funpassgen.png" alt="Screenshot of Fun Password Generator">
+            <img src="funpassgen.png" alt="Screenshot of Fun Password Generator">
             </div>
-            <br>
             
-            <p>This is terminal app programmed in Ruby, where a unique and secure password is generated based on the
+            <p> A terminal app programmed in Ruby where a memorable and secure password is generated based on the
             user's answers to a set of questions.</p>
-            <br>
             <p>Click <a href="https://github.com/tjde/fun-pass-gen" target="_blank">here</a> to learn more.</p>
 
             </div>
 
             <div class ="zencss">
 
-            <p><b>Zen Garden CSS</b></p> 
-            <br>
-            <img src="./src/csszen.png" alt="Screenshot Zen CSS Page">
+            <p><span class="bold">Zen Garden CSS</span></p> 
+            <img src="csszen.png" alt="Screenshot Zen CSS Page">
 
-            <br>
-            <br>
             <p>A submission to a design challenge to style a given html page using css.</p>
-            <p>This is currently a WIP</p>
+            <p>This image is a placeholder and the project is currently a WIP</p>
+
             </div>
 
         </div>
@@ -94,7 +74,7 @@
        
             <div class="column">
                 <h3>Current</h3>
-                <br>
+
                 <p>I'm a full-time student studying at Coder Academy where I’m developing the knowledge and skills to utilise
                         best practices in programming.
                     </p>
@@ -102,14 +82,14 @@
                         keep myself healthy in mind and body.
                         I am also very interested in emerging technologies like VR & AR.
                     </p>
-                    <br>
+    
                     <p>Currently working on: <span style="text-decoration:underline">Ruby, HTML & CSS. </span></p>
-                    <br>
+    
               </div>
               
             <div class="column">
                 <h3>Previous</h3>
-                <br>
+
                 <p>I was working as a cpa qualified management accountant in the education and private sectors, managing budgets
                         and analysing financial trends before deciding to study programming. 
                 </p>
@@ -121,36 +101,30 @@
        
     </div>
 
-<!-- 
-    <div id="contact">
-            <span>Contact me via</span>
-            <a class="smedia" href="mailto: tjde@protonmail.com" class="content-link" target="_blank"> <i
-                    class="fas fa-envelope-square"></i>
-            </a>
-            <a class="smedia" href="http://www.linkedin.com/in/jaderosario" class="content-link" target="_blank"><i
-                    class="fab fa-linkedin"></i></a>
-            <a class="smedia" href="https://github.com/tjde" class="content-link" target="_blank"><i
-                    class="fab fa-github"></i>
-        </div>
-        <br> -->
-
-
-    <footer>
-
-      <div id="contact">
+    <div id="contact"> <a name="contact page"></a>
+        
+        <h2>Contact</h2> 
             <a class="smedia" href="mailto: tjde@protonmail.com" target="_blank"> 
                 <i class="fas fa-envelope-square"></i></a>
             <a class="smedia" href="http://www.linkedin.com/in/jaderosario" target="_blank">
                 <i class="fab fa-linkedin"></i></a>
             <a class="smedia" href="https://github.com/tjde" target="_blank">
-                <i class="fab fa-github"></i>
-    </div>
-       
-       
+                <i class="fab fa-github"></i></a>
+        </div>
 
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+          if (prevScrollpos > currentScrollPos) {
+            document.getElementById("navbar").style.top = "0";
+          } else {
+            document.getElementById("navbar").style.top = "-50px";
+          }
+          prevScrollpos = currentScrollPos;
+        }
 
-
-    </footer>
+    </script>
 
 </body>
 

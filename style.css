@@ -1,10 +1,17 @@
 *{
   margin:0;
-  padding;0;
+  /* padding:0; */
 }
 /* this resets the default margin and padding to 0  */
 
+p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
 
+a {
+  color: #5F6B72;
+}
 
 body { 
   height: 100%;
@@ -52,7 +59,7 @@ img {
 #hometext {
   /* margin: 20px 20px; */
   /* background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%); */
-  background-image:url('./src/greenplants.jpg');
+  background-image:url(greenplants.jpg);
   font-family: 'Cabin', Arial, sans-serif;
   color: rgb(71, 69, 69);
   text-align: center;
@@ -84,9 +91,9 @@ img {
   }
 
   #projects {
-    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+    background-image:#f2f2f2;
     text-align: center;
-    height: 100vh;
+    /* min-height: 100vh; */
     
   }
 
@@ -94,13 +101,17 @@ img {
     background-color: rgb(114, 150, 114);
     color: white;
     padding: 8px;
-    margin-bottom: 15px; 
+   
 
   }
 
   .container {
     display: flex;
     padding: 20px;
+    justify-content: space-around;
+    
+    
+   
    
     /* max-width: 50%; */
     /* padding 0 15px; */
@@ -116,7 +127,12 @@ img {
   /* } */
 
   .passgen {
-    flex: 50%;
+
+    width: 40%;
+    margin: 15px 15px;
+
+
+    /* flex: 50%; */
     /* padding: 15px; */
     /* text-align: center;
     flex-direction: column;
@@ -125,16 +141,23 @@ img {
 
   }
 
+
+.bold {
+  font-weight: bold;
+  color: #5F6B72;
+}
   /* .passpic {
     width: 50px;
     height: 50px
   } */
 
   .zencss { 
+    width: 40%;
+    margin: 15px 15px;
  /* flex-direction: column;
  align-items: flex-end;
  flex-wrap: wrap; */
-  flex: 50%;
+  /* flex: 50%; */
  /* padding: 15px; */
   }
   */
@@ -166,7 +189,9 @@ img {
     text-align: center; 
   }
 
-
+  .column: {
+    text-align: center;
+  }
 
     
   h4 {
@@ -185,6 +210,13 @@ img {
     display: flex;
       justify-content: center;
       align-items: center;
+}
+
+#contact h2 {
+  background-color: rgb(114, 150, 114);
+  color: white;
+  padding: 8px;
+
 }
 
 #contact span {
@@ -218,17 +250,26 @@ img {
   /* padding: 0 20px; */
 
 /* Responsive layout - makes a two column-layout instead of four columns */
-@media (max-width: 800px) {
+/* @media (max-width: 800px) {
   .container {
     flex: 50%;
     max-width: 50%;
   }
-}
+} */
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .container {
-    flex: 100%;
-    max-width: 100%;
+    flex-direction: column;
   }
+
+  .passgen {
+    width: 90%;
+  }
+
+  .zencss {
+    width: 90%;
+
+  }
+
 }

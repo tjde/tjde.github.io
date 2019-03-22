@@ -4,6 +4,9 @@
 }
 /* this resets the default margin and padding to 0  */
 
+
+
+
 p {
   margin-top: 15px;
   margin-bottom: 15px;
@@ -20,6 +23,22 @@ body {
   color: #5F6B72;
   
 }
+
+h1 {
+  font-size: 60px;
+  line-height: 1.2;
+}
+
+
+/* .transparent {
+height: 100%;
+width: 100%;
+background-color: rgba(182, 34, 34, 0.39);
+
+
+} */
+
+
 
 img {
   /* text-align: justify; */
@@ -59,7 +78,7 @@ img {
 #hometext {
   /* margin: 20px 20px; */
   /* background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%); */
-  background-image:url(greenplants.jpg);
+  background-image:url(greenplants2.png);
   font-family: 'Cabin', Arial, sans-serif;
   color: rgb(71, 69, 69);
   text-align: center;
@@ -78,11 +97,7 @@ img {
 #hometext p {
   font-size: 20px;
 }
-  h1 {
-    font-size: 60px;
-    line-height: 1.2;
-  }
-
+ 
 
   span {
      color: rgb(41, 116, 11);
@@ -141,6 +156,9 @@ img {
 
   }
 
+p.passgen {
+  text-align: justify;
+}
 
 .bold {
   font-weight: bold;

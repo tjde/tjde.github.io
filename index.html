@@ -15,17 +15,16 @@
 <body>
 
     <div id="navbar">
-        <a class="active" href="#hometext">Home</a>
-        <a href="#projects">Projects</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
+        <div class="nav-container">
+            <a class="active" href="#hometext">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
     </div>
 
-
-
     <div id="hometext">
-        <!-- <div class="transparent"> -->
-        <h1> G'day, my name is <span><b>Jade.</b></span></h1>
+        <h1> G'day, my name is <span class><b>Jade.</b></span></h1>
         <h2> A full-stack developer in the making</h2>
         <p>I aim to build programs that enrich people's lives.</p>
         </div>
@@ -38,32 +37,30 @@
 
         <div class="container">
 
-            
-            <div class ="passgen">
+            <div class ="column">
 
-            <p><span class="bold">Fun-Pass-Gen Password Generator</p></span>
-            <div class="passpic">
-            <img src="funpassgen.png" alt="Screenshot of Fun Password Generator">
-            </div>
-            
-            <p> A terminal app programmed in Ruby where a memorable and secure password is generated based on the
-            user's answers to a set of questions.</p>
-            <p>Click <a href="https://github.com/tjde/fun-pass-gen" target="_blank">here</a> to learn more.</p>
+                <p><span class="bold">Fun-Pass-Gen Password Generator</p></span>
 
+                <img src="funpassgen.png" alt="Screenshot of Fun Password Generator">
+            
+                <p class="par"> A terminal app programmed in Ruby where a memorable and secure password is generated based on the
+                user's answers to a set of questions.</p> 
+                <p class="par">Click <a href="https://github.com/tjde/fun-pass-gen" target="_blank">here</a> to learn more.</p>
+               
             </div>
 
-            <div class ="zencss">
+            <div class ="column">
 
-            <p><span class="bold">Zen Garden CSS</span></p> 
-            <img src="csszen.png" alt="Screenshot Zen CSS Page">
+                <p><span class="bold">Zen Garden CSS</span></p> 
 
-            <p>A submission to a design challenge to style a given html page using css.</p>
-            <p>This image is a placeholder and the project is currently a WIP</p>
+                <img src="csszen.png" alt="Screenshot Zen CSS Page">
+
+                <p class="par">A submission to a design challenge to style a given html page using css.</p>
+                <p class="par">*Please note that this image is only a placeholder until my project is finished.</p>
 
             </div>
 
         </div>
-
 
     </div>
 
@@ -73,45 +70,33 @@
 
         <div class="container2">
        
-            <div class="column">
-                <h3>Current</h3>
+            <div class="box">
+                
+                <img src="/yoga.jpg">
 
-                <p>I'm a full-time student studying at Coder Academy where I’m developing the knowledge and skills to utilise
-                        best practices in programming.
-                    </p>
-                    <p>In between classes, I strive to maintain a yoga and calisthenics practice to
-                        keep myself healthy in mind and body.
-                        I am also very interested in emerging technologies like VR & AR.
-                    </p>
-    
-                    <p>Currently working on: <span style="text-decoration:underline">Ruby, HTML & CSS. </span></p>
-    
-              </div>
-              
-            <div class="column">
-                <h3>Previous</h3>
-
-                <p>I was working as a cpa qualified management accountant in the education and private sectors, managing budgets
-                        and analysing financial trends before deciding to study programming. 
-                </p>
-                <p>In between, I travelled extensively for the joy of experiencing new places
-                    including a memorable stint as a volunteer construction worker in Cuzco, Peru.</p>
-            
-              </div>
             </div>
+              
+            <div class="box">
+                
+                <p>Graduating from UNSW with a degree in Accounting and International Business, I went on to work as a management accountant in the education and private sectors where I managed budgets and analysed financial trends. </p>
+                <p>Growing up, I’ve always been fascinated with technological innovations and have increasingly felt that technology allows us to express our creativity while providing us with the tools to help ourselves and pave the way to progress. This has led to my decision to enroll in a 6 month programming bootcamp at Coder Academy. </p> 
+                <p>When I’m not working on improving my Ruby, HTML & CSS skills, you’ll find me scrunched up in yoga poses, reading books or practicing the ukulele.</p> 
+           
+            </div>
+            
+        </div>
        
     </div>
 
     <div id="contact"> <a name="contact page"></a>
-        
-        <h2>Contact</h2> 
+        <h3>Let's talk:</h3>
             <a class="smedia" href="mailto: tjde@protonmail.com" target="_blank"> 
                 <i class="fas fa-envelope-square"></i></a>
             <a class="smedia" href="http://www.linkedin.com/in/jaderosario" target="_blank">
                 <i class="fab fa-linkedin"></i></a>
             <a class="smedia" href="https://github.com/tjde" target="_blank">
                 <i class="fab fa-github"></i></a>
-        </div>
+    </div>
 
     <script>
         var prevScrollpos = window.pageYOffset;
@@ -130,21 +115,3 @@
 </body>
 
 </html>
-
-
-<!-- responsive top bar
-
-https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav
-
-https://www.w3schools.com/css/css_navbar.asp
-
--->
-
-<!-- responsive side bar
-
--->
-
-<!-- https://jacekjeznach.com/ -->
-<!-- https://ivanrahn.github.io/portfolio/ -->
-<!-- https://www.vanschneider.com/ -->
-<!-- http://findmatthew.com/ -->

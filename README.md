@@ -1,12 +1,13 @@
 
 **Portfolio website**: https://tjde.github.io
+
 **Github repo**: https://github.com/tjde/tjde.github.io
 
-## Website Description: ##
+## Website Description ##
 
 **i. Purpose**
 
-To create a portfolio that demonstrates my knowledge and application of html and css, showcases my skills and the tech stack I'm familiar with, contains links to my contact details and social media profiles and a brief information about myself.
+To create a portfolio website that showcases my technical skills to interested parties via the projects presented and how the webpage was designed. This will also serve to establish my personal brand, provide details about myself and various ways to contact me.
 
 **ii. Functionality**
 
@@ -15,8 +16,11 @@ The portfolio has a top navigation bar with various clickable menu headings on t
 Areas of the website include:
 
 *A. Home* - Brings user to the landing page.
+
 *B. Projects* - A demonstration of past and current projects. 
+
 *C. About Me* - Details current and previous occupations, history and interests.
+
 *D. Contact* - Contains the email, github and linkedin icons that when clicked will open a new window with                 direct links to my email and social media pages.
 
 **iii. Sitemap**

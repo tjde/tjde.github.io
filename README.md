@@ -2,7 +2,7 @@
 **Portfolio website**: https://tjde.github.io
 **Github repo**: https://github.com/tjde/tjde.github.io
 
-##Website Description:##
+## Website Description: ##
 
 **i. Purpose**
 
@@ -27,17 +27,17 @@ Areas of the website include:
 
 Desktop
 
-![screenshot](docs/Desktop p1 landing.png)
-![screenshot](docs/Desktop p2 projects.png)
-![screenshot](docs/Desktop p3 About Me.png)
+![screenshot](docs/Desktop_p1.png)
+![screenshot](docs/Desktop_p2.png)
+![screenshot](docs/Desktop_p3.png)
 
 Mobile
 
-![screenshot](docs/Mobile p1 Landing.png)
-![screenshot](docs/Mobile p2 Project.png)
-![screenshot](docs/Mobile p3 Project.png)
-![screenshot](docs/Mobile p4 About.png)
-![screenshot](docs/Mobile p5 About.png)
+![screenshot](docs/Mobile_p1.png)
+![screenshot](docs/Mobile_p2.png)
+![screenshot](docs/Mobile_p3.png)
+![screenshot](docs/Mobile_p4.png)
+![screenshot](docs/Mobile_p5.png)
 
 **v. Target Audience**
 
@@ -47,7 +47,7 @@ The target audience includes educators, potential employers, recruiters, other p
 
 The tech stack utilised in this project includes: Trello, Balsamiq, Github, HTML and CSS
 
-##Design Documentation:##
+## Design Documentation: ##
 
 **i. Design Process**
 
@@ -56,9 +56,9 @@ The tech stack utilised in this project includes: Trello, Balsamiq, Github, HTML
 **iii. Usability Considerations**
 
 
-##III. Planning Process:##
+## III. Planning Process: ##
 
-##IV. Development of the internet##
+## IV. Development of the internet ##
 
  Describe key events in the development of the internet from the 1980s to today (max. 150 words)
 
@@ -67,91 +67,4 @@ The tech stack utilised in this project includes: Trello, Balsamiq, Github, HTML
     Reflect on one aspect of the development of internet technologies and how it has contributed to the world today (max. 150 words)
 
 
-
-
-
-
-
-
-<!-- Description
-
-This project is to be completed individually.
-
-You are to design, build, deploy and present a portfolio website.
-
-At a minimum, your website must include the following information,
-
-    Your name and contact details.
-    Links to your Github and LinkedIn accounts.
-    Information about you to demonstrate your personality.
-    Your study and work history.
-
-Your portfolio website forms part of the greater internet. A fullstack developer must have an appreciation & understanding of the historical and technical aspects of the web. To satisfy diploma requirements, include short answers to the following questions in your documentation,
-
-    Describe key events in the development of the internet from the 1980s to today (max. 150 words)
-    Define and describes the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers (max. 150 words)
-    Reflect on one aspect of the development of internet technologies and how it has contributed to the world today (max. 150 words)
-
-Deliverable
-	
-
-Description
-	
-
-Location
-(in Zip file)
-
-README.md
-	
-
-Project documentation is to be compiled as a single markdown file named README.md
-
-This file should contain,
-
-    A link (URL) to your published portfolio website
-    A link to your GitHub repository
-        Ensure the repository (repo) is accessible by your Educators
-    Description of your portfolio website, including,
-        Purpose
-        Functionality / features
-        Sitemap
-        Screenshots
-        Target audience
-        Tech stack (e.g. html, css, deployment platform, etc)
-    Design documentation including,
-        Design process
-        Wireframes
-        Personal logo (optional)
-        Usability considerations
-    Details of planning process including,
-        Project plan & timeline
-        Screenshots of Trello board(s)
-
-    Short Answer Q&A - Include short answers to the following questions,
-        Describe key events in the development of the internet from the 1980s to today (max. 150 words)
-        Define and describes the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers (max. 150 words)
-        Reflect on one aspect of the development of internet technologies and how it has contributed to the world today (max. 150 words)
-
-	
-
-/
-(Root folder of your zip file)
-
-Resources
-	
-
-All files linked by the README.md file must be included in a folder named docs
-
-All resources included in this folder must be in either png, jpeg, pdf, or markdown format
-	
-
-docs/
-
-Source Code
-	
-
-Source code for your entire website
-	
-https://coderacademy.instructure.com/courses/162/assignments/732
-src/ -->
 

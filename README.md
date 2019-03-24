@@ -17,11 +17,11 @@ Areas of the website include:
 
 *A. Home* - Brings user to the landing page.
 
-*B. Projects* - A demonstration of past and current projects. 
+*B. Projects* - A demonstration of past and current projects with descriptions and links. 
 
 *C. About Me* - Details current and previous occupations, history and interests.
 
-*D. Contact* - Contains the email, github and linkedin icons that when clicked will open a new window with                 direct links to my email and social media pages.
+*D. Contact* - Contains the email, github and linkedin icons that when clicked will open a new window with direct links to my email and social media pages.
 
 **iii. Sitemap**
 
@@ -49,7 +49,7 @@ The target audience includes educators, potential employers, recruiters, other p
 
 **vi. Tech Stack**
 
-The tech stack utilised in this project includes: Trello, Balsamiq, Github, HTML and CSS
+The tech stack utilised in this project includes: Trello, Balsamiq, Github, Github Pages,HTML and CSS
 
 ## Design Documentation: ##
 
@@ -91,9 +91,12 @@ My planning process can be summed up as follows:
 
 **Key events in the development of the internet from the 1980s to today**
 
+In 1981, the NSF provided a grant to provide networking services to university computer scientists. TCP and IP were codified as the protocol suite in 1982. The domain naming system was established in 1983, In 1990, Tim Berners-Lee develops HTML and in 1991, CERN introduces the web to the public. In 1992, the first audio and video were distributed over the internet. In 1994, Microsoft created the browser for Windows 95 and Yahoo appeared. In 1995, CompuServe, America Online, and Prodigy start providing dial-up Internet access and Amazon, Craigslist and Ebay emerged. In 1998, Google search appeared and the Internet Protocal v6 was introduced.  In 1999, peer to peer sharing via Napster was invented. In 2000, the proliferation of viruses occurred and the internet bubble burst. In 2003, Skype and Wordpress debut. In 2004, Facebook goes online. Youtube and Reddit launches in 2005. In 2006, Twitter launches and in 2016, Google launches Google assistant.
+
 **Define and describes the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers**
+
+Computers in the web are either either clients, which are the devices we use to connect to the internet (phone with 4g, laptop with wifi) or servers which are computers that act as storage for webpages, sites and apps. When we open a web browser, which is an application that allows us to access information on the web, and type in an web address (the domain) we would like to go to, the browser converts the domain name typed to the real web address of the page, a string of numbers called the IP address via the Domain Name Server.  The browser will then send a HTTP request message to the server to obtain a copy of the website which it will then display to the user’s window.
 
 **Reflect on one aspect of the development of internet technologies and how it has contributed to the world today**
 
-
-
+The widespread development and access to high speed wireless internet all around the world has revolutionised the speed of information distribution and has made it so that anyone who has a working internet connection gains access to the world’s collective knowledge, including those from the poorest countries. This is unprecedented as traditionally there have been gatekeepers and middlemen who stood in the way. Now we have encyclopedias that anyone can contribute to, online learning platforms with material from top universities, forums in every kind of subject all over the place that allows for mass participation, video tutorials and music of every kind that one can find at the tip of the fingertips. We can know cheaply and instantaneously communicate with one other over long distances and connect directly to our political leaders and greatest thinkers of our time.

@@ -5,7 +5,7 @@
     <title>Jade Rosario</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="normalize.css" rel="stylesheet" />
-    <link href="style.css" rel="stylesheet" />   
+    <link href="style.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Cabin:400,500,700|Source+Sans+Pro:300,400" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
@@ -15,19 +15,18 @@
 <body>
 
     <div id="navbar">
-        <div class="nav-container">
-            <a class="active" href="#hometext">Home</a>
-            <a href="#projects">Projects</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
-        </div>
+        <a class="active" href="#home">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </div>
     </div>
 
-    <div id="hometext">
+    <div id="home">
         <h1> G'day, my name is <span class><b>Jade.</b></span></h1>
         <h2> A full-stack developer in the making</h2>
         <p>I aim to build programs that enrich people's lives.</p>
-        </div>
+    </div>
     </div>
 
 
@@ -37,21 +36,23 @@
 
         <div class="container">
 
-            <div class ="column">
+            <div class="column">
 
                 <p><span class="bold">Fun-Pass-Gen Password Generator</p></span>
 
                 <img src="funpassgen.png" alt="Screenshot of Fun Password Generator">
-            
-                <p class="par"> A terminal app programmed in Ruby where a memorable and secure password is generated based on the
-                user's answers to a set of questions.</p> 
-                <p class="par">Click <a href="https://github.com/tjde/fun-pass-gen" target="_blank">here</a> to learn more.</p>
-               
+
+                <p class="par"> A terminal app programmed in Ruby where a memorable and secure password is generated
+                    based on the
+                    user's answers to a set of questions.</p>
+                <p class="par">Click <a href="https://github.com/tjde/fun-pass-gen" target="_blank">here</a> to learn
+                    more.</p>
+
             </div>
 
-            <div class ="column">
+            <div class="column">
 
-                <p><span class="bold">Zen Garden CSS</span></p> 
+                <p><span class="bold">Zen Garden CSS</span></p>
 
                 <img src="csszen.png" alt="Screenshot Zen CSS Page">
 
@@ -65,49 +66,55 @@
     </div>
 
     <div id="about"> <a name="about"></a>
-        
-        <h2>About Me</h2> 
+
+        <h2>About Me</h2>
 
         <div class="container2">
-       
+
             <div class="box">
-                
+
                 <img src="/yoga.jpg">
 
             </div>
-              
+
             <div class="box">
-                
-                <p>Graduating from UNSW with a degree in Accounting and International Business, I went on to work as a management accountant in the education and private sectors where I managed budgets and analysed financial trends. </p>
-                <p>Growing up, I’ve always been fascinated with technological innovations and have increasingly felt that technology allows us to express our creativity while providing us with the tools to help ourselves and pave the way to progress. This has led to my decision to enroll in a 6 month programming bootcamp at Coder Academy. </p> 
-                <p>When I’m not working on improving my Ruby, HTML & CSS skills, you’ll find me scrunched up in yoga poses, reading books or practicing the ukulele.</p> 
-           
+
+                <p>Graduating from UNSW with a degree in Accounting and International Business, I went on to work as a
+                    management accountant in the education and private sectors where I managed budgets and analysed
+                    financial trends. </p>
+                <p>Growing up, I’ve always been fascinated with technological innovations and have increasingly felt
+                    that technology allows us to express our creativity while providing us with the tools to help
+                    ourselves and pave the way to progress. This has led to my decision to enroll in a 6 month
+                    programming bootcamp at Coder Academy. </p>
+                <p>When I’m not working on improving my Ruby, HTML & CSS skills, you’ll find me scrunched up in yoga
+                    poses, reading books or practicing the ukulele.</p>
+
             </div>
-            
+
         </div>
-       
+
     </div>
 
     <div id="contact"> <a name="contact page"></a>
         <h3>Let's talk:</h3>
-            <a class="smedia" href="mailto: tjde@protonmail.com" target="_blank"> 
-                <i class="fas fa-envelope-square"></i></a>
-            <a class="smedia" href="http://www.linkedin.com/in/jaderosario" target="_blank">
-                <i class="fab fa-linkedin"></i></a>
-            <a class="smedia" href="https://github.com/tjde" target="_blank">
-                <i class="fab fa-github"></i></a>
+        <a class="smedia" href="mailto: tjde@protonmail.com" target="_blank">
+            <i class="fas fa-envelope-square"></i></a>
+        <a class="smedia" href="http://www.linkedin.com/in/jaderosario" target="_blank">
+            <i class="fab fa-linkedin"></i></a>
+        <a class="smedia" href="https://github.com/tjde" target="_blank">
+            <i class="fab fa-github"></i></a>
     </div>
 
     <script>
         var prevScrollpos = window.pageYOffset;
-        window.onscroll = function() {
-        var currentScrollPos = window.pageYOffset;
-          if (prevScrollpos > currentScrollPos) {
-            document.getElementById("navbar").style.top = "0";
-          } else {
-            document.getElementById("navbar").style.top = "-50px";
-          }
-          prevScrollpos = currentScrollPos;
+        window.onscroll = function () {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("navbar").style.top = "0";
+            } else {
+                document.getElementById("navbar").style.top = "-50px";
+            }
+            prevScrollpos = currentScrollPos;
         }
 
     </script>

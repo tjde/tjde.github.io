@@ -1,49 +1,64 @@
 
-Portfolio website: https://tjde.github.io
-Github repo: https://github.com/tjde/tjde.github.io
+**Portfolio website**: https://tjde.github.io
+**Github repo**: https://github.com/tjde/tjde.github.io
 
-I. Website Description:
+##Website Description:##
 
-i. Purpose
+**i. Purpose**
 
-To create a portfolio that demonstrates my knowledge of html and css, that shows information about myself and serves to showcase my skills to future employers.
+To create a portfolio that demonstrates my knowledge and application of html and css, showcases my skills and the tech stack I'm familiar with, contains links to my contact details and social media profiles and a brief information about myself.
 
-ii. Functionality/ features
+**ii. Functionality**
 
-The portfolio has a sidebar with various clickable menu headings for the following items:
+The portfolio has a top navigation bar with various clickable menu headings on the left of the screen. Hovering over each heading will highlight it in green and when clicked, will take the user directly to the different areas of the website. The navigation bar is responsive ie, it will disappear when a user is scrolling down the page and will reappear when scrolling up.
 
-A. Home - Brings user to home page.
-B. Projects - A demonstration of current and future projects that can be scrolled through via a clickable arrow.
-C. My Story - Details current and previous professions, projects and interests
+Areas of the website include:
 
-The bottom of the sidebar also contains direct links to contact me through various social meda sites, including email, github and linkedin.
+*A. Home* - Brings user to the landing page.
+*B. Projects* - A demonstration of past and current projects. 
+*C. About Me* - Details current and previous occupations, history and interests.
+*D. Contact* - Contains the email, github and linkedin icons that when clicked will open a new window with                 direct links to my email and social media pages.
 
-iii. Sitemap
+**iii. Sitemap**
 
-iv. Screenshots
+![screenshot](docs/sitemap.png)
 
+**iv. Screenshots**
 
+Desktop
 
-v. Target Audience
+![screenshot](docs/Desktop p1 landing.png)
+![screenshot](docs/Desktop p2 projects.png)
+![screenshot](docs/Desktop p3 About Me.png)
 
-The target audience includes potential employers, recruiters, other programmers, anybody who may be interested in tech or learning to program.
+Mobile
 
-vi. Tech Stack
+![screenshot](docs/Mobile p1 Landing.png)
+![screenshot](docs/Mobile p2 Project.png)
+![screenshot](docs/Mobile p3 Project.png)
+![screenshot](docs/Mobile p4 About.png)
+![screenshot](docs/Mobile p5 About.png)
+
+**v. Target Audience**
+
+The target audience includes educators, potential employers, recruiters, other programmers and anybody who may be interested in tech or learning to program.
+
+**vi. Tech Stack**
 
 The tech stack utilised in this project includes: Trello, Balsamiq, Github, HTML and CSS
 
-II. Design Documentation:
+##Design Documentation:##
 
-i. Design Process
+**i. Design Process**
 
-ii. Wireframes
+**ii. Wireframes**
 
-iii. Usability Considerations
+**iii. Usability Considerations**
 
 
-III. Planning Process:
+##III. Planning Process:##
 
-IV. Development of the internet
+##IV. Development of the internet##
 
  Describe key events in the development of the internet from the 1980s to today (max. 150 words)
 
